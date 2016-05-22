@@ -29,6 +29,11 @@ body {
     font-weight: 700;
 }
 
+.text-center h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -162,9 +167,9 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
+/* Hotel */
 
-.about {
+.hotel {
     padding: 50px 0;
 }
 
