@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="2016 Family Reunion Website">
     <meta name="author" content="Adrian D">
 
-    <title>Agnes Johnson Family Reuion 2016</title>
+    <title>Agnes Johnson Family Reunion 2016</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -114,7 +112,7 @@
                                     <strong>Chicago Day Trip</strong>
                                 </h4>
                                 <p>Friday morning 9:00am-3:00pm July 29th shopping on Michigan ave and navy pier, Downtown Chicago.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -127,7 +125,8 @@
                                     <strong>Opening Banquet</strong>
                                 </h4>
                                 <p>7pm on Friday July 29th at the DoubleTree</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Dress code will be All-White Attire!!!</p>
+                                <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -140,7 +139,7 @@
                                     <strong>Family Beach Picnic</strong>
                                 </h4>
                                 <p>Saturday July 30th 10am to 7pm at Evanston Beach. Picnic Lunch &amp; dinner, plus desert at the Homestead</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="picnic.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -153,7 +152,7 @@
                                     <strong>Farewell Luncheon</strong>
                                 </h4>
                                 <p>Sunday Afternoon 1:00pm July 31st luncheon.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
                     </div>
@@ -183,53 +182,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Gallery
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- /.row (nested) -->
-                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
     </section>
 
     <!-- Call to Register -->
@@ -317,36 +269,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/custom.js"></script>
 
 </body>
 

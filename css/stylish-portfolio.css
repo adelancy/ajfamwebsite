@@ -168,6 +168,18 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header-picnic {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    background: url(../img/evanstonbeach.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* Hotel */
 
 .hotel {
